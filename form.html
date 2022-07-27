@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REVIEW</title>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+            box-sizing:border-box;
+        }
+        .box-primary{
+            height:100vh;
+            background-color:rgb(226, 199, 149);
+            position:relative;
+        }
+        .heading{
+            margin:3px auto;
+            padding-bottom:10px;
+            color:white;
+        }
+        .box-secondary{
+            display:inline-block;
+            display:flex;
+            flex-direction:column;
+
+            background-color: rgb(40, 43, 39);
+            padding:1%;
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            border-radius:20px;
+        }
+        .item{
+            color:white;}
+        .btn{
+            border:2px solid black;
+            margin:0px auto;
+        }
+
+    </style>
+</head>
+<body>
+    <form class="box-primary">
+            <div class="box-secondary">
+                <div class="heading"><h2>Review Section</h2></div>
+                <div class="item"><label for="Name">Name:</label>
+                <input type="text" id="Name"></div></br>
+                <div class="item">
+                    <label for="email">Email Id:</label>
+                    <input type="email" id="email"> 
+                </div>
+                </br>
+                <div class="item">
+                    <textarea name="" id="" cols="30" rows="6" placeholder="type your review here"></textarea>
+                </div>
+                <div class="btn"><button id="click">Submit</button></div>
+            </div>
+    </form>
+</body>
+</html>

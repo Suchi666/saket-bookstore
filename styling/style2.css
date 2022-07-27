@@ -1,0 +1,107 @@
+.recommendations {
+  height: 85vh;
+  background-color: rgba(43, 41, 41, 0.9);
+  padding: 4%;
+}
+
+.recommendations .searchbar-2 {
+  margin: 5% auto;
+  display: block;
+  padding: 1%;
+  width: 450px;
+  height: 37px;
+}
+
+.recommendations .searchbar-2:hover {
+  padding: 1.5%;
+  border-width: 0;
+  -webkit-box-shadow: 0 0 100px #ce630c;
+          box-shadow: 0 0 100px #ce630c;
+}
+
+.recommendations .searchbar-2:hover[type="text"] {
+  padding: 1.5%;
+  color: #161515;
+  background-color: #f09814;
+}
+
+.recommendations h1 {
+  background-image: -webkit-gradient(linear, left top, right top, from(#848e8f), to(#f09814));
+  background-image: linear-gradient(to right, #848e8f, #f09814);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.recommendations .card2 {
+  text-align: center;
+  border: 3px solid #f37907;
+  display: inline-block;
+  color: #f37907;
+  border-bottom-left-radius: 500px;
+  border-bottom-right-radius: 500px;
+  padding: 1%;
+  background-color: rgba(43, 41, 41, 0.5);
+}
+
+.recommendations .card2 img {
+  width: 100px;
+  height: 130px;
+}
+
+.align-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.review-tab {
+  height: 85vh;
+  background-color: #848e8f;
+  text-align: center;
+  padding: 4%;
+}
+
+.review-tab .existing-reviews {
+  height: 70%;
+}
+
+.review-tab h1 {
+  font-size: 4rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#161515), to(#703a08));
+  background-image: linear-gradient(to right, #161515, #703a08);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.review-tab .review-sub:link, .review-tab .review-sub:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #161515;
+  margin: 1rem;
+  padding: 0.2em 0.5em;
+  background: #f37907;
+  border-radius: 4rem;
+  font-size: 1.6rem;
+}
+
+.review-tab .review-sub:hover {
+  border: 5px solid #2b2929;
+  background-color: #f09814;
+  -webkit-box-shadow: 0 0 10px rgba(14, 13, 13, 0.39);
+          box-shadow: 0 0 10px rgba(14, 13, 13, 0.39);
+  padding: 0.2em 0.6em;
+}
+
+footer {
+  height: 70vh;
+  background-color: #2b2929;
+  text-align: center;
+  color: #f37907;
+  padding: 4%;
+}
+/*# sourceMappingURL=style2.css.map */

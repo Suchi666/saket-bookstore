@@ -1,0 +1,29 @@
+$col-light:#e6bf13;
+$col-medium:#f09814;
+$col-dark:#f37907;
+$black-orange:#703a08;
+$white:#848e8f;
+
+$color-black:#161515;
+$black-light:#2b2929;
+ 
+@mixin style-link{
+    display:inline-block;
+    text-decoration: none;
+}
+@mixin set-size{
+    width:40%;
+    height:40%;
+}
+@mixin styled-heading{
+    background-image:linear-gradient(to right, $color-black ,$black-orange);
+    //display:inline-block;
+    -webkit-background-clip:text;
+    color:transparent;
+}
+@mixin styled-heading2{
+    background-image:linear-gradient(to right, $white ,$col-medium);
+    //display:inline-block;
+    -webkit-background-clip:text;
+    color:transparent;
+}

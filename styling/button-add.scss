@@ -1,0 +1,28 @@
+@import "./variables.scss";
+.card-heading{
+    display:flex;
+    justify-content:center;
+    .button{
+        margin-left:5px;
+        .back-side{
+            color:green;
+            background-color:rgb(104, 201, 104);
+            //transform:rotateY(180deg);
+        }
+        .button--add{
+            transition:all 0.2s;
+            &:hover{transform:rotateY(180deg);}
+        }
+    }
+    a{
+        &:link, &:visited{
+            @include style-link;
+            border:2px solid $color-black;
+            background-color:white;
+            padding:0.1em;
+            font-size:1.6rem;
+            color:$color-black;
+        }
+    }
+
+}

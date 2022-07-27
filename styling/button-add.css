@@ -1,0 +1,38 @@
+.card-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-heading .button {
+  margin-left: 5px;
+}
+
+.card-heading .button .back-side {
+  color: green;
+  background-color: #68c968;
+}
+
+.card-heading .button .button--add {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.card-heading .button .button--add:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.card-heading a:link, .card-heading a:visited {
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid #161515;
+  background-color: white;
+  padding: 0.1em;
+  font-size: 1.6rem;
+  color: #161515;
+}
+/*# sourceMappingURL=button-add.css.map */

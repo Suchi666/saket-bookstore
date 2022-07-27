@@ -1,0 +1,95 @@
+@import "./variables.scss";
+.recommendations{
+    height:85vh;
+    background-color:rgba($black-light,0.9);
+    padding:4%;
+    .searchbar-2
+    {
+        margin:5% auto;
+        display:block;
+        padding:1%;
+        width:450px;
+        height:37px;
+        &:hover{
+            padding:1.5%;
+            
+            border-width:0;
+            //border:10px solid $color-black;
+            box-shadow:0 0 100px rgb(206, 99, 12);}
+        &:hover{
+           &[type="text"]
+           {
+            padding:1.5%;
+            color:$color-black;
+            background-color: $col-medium;
+            }
+        }
+    }
+
+    h1{
+        @include styled-heading2;
+        font-size:3rem;
+        //text-transform:uppercase;
+        text-align:center;
+    }
+    .card2
+    { 
+        text-align:center;
+        img{
+        width:100px;
+        height:130px;
+        }
+        border:3px solid $col-dark;
+        display:inline-block;
+        color:$col-dark;
+        border-bottom-left-radius:500px;
+        border-bottom-right-radius:500px;
+        padding:1%;
+        background-color:rgba($black-light,0.5);
+    }
+}
+.align-cards{
+    display:flex;
+    //margin-top:;
+    justify-content:space-evenly;
+   }
+.review-tab{
+    height:85vh;
+    background-color:$white;
+    text-align: center;
+    padding:4%;
+    .existing-reviews{
+      height:70%;
+    }
+    h1{
+        font-size:4rem;
+        @include styled-heading; 
+    }
+    .review-sub{
+
+        &:link, &:visited{
+            @include style-link;
+            color:$color-black;
+            margin:1rem;
+            padding:0.2em 0.5em;
+           // border:1px solid $white;
+            background:$col-dark;
+            border-radius:4rem;
+            font-size:1.6rem;}
+            &:hover{
+                border:5px solid $black-light;
+                background-color: $col-medium;
+                box-shadow: 0 0 10px rgba(14, 13, 13, 0.39);
+                padding:0.2em 0.6em;
+            } 
+    }
+}
+footer{
+    height:70vh;
+    background-color: $black-light;
+    text-align:center;
+    color:$col-dark;
+    padding:4%;
+}
+
+
